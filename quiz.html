@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css" />
+    <title>Quiz</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Is Triangle</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="hypotenuse.html">Hypotenus</a>
+        <a href="area.html">Area</a>
+    </nav>
+    <h1>QUIZ</h1>
+    <form class="form">
+        <div class="container">
+            <p>1) The sides of a triangle are 7, 10, and 12.  Find the length of the longest side of a similar triangle whose shortest side is 21.</p>
+            <label ><input type="radio" name="q1" value ="12" />12</label>
+
+            <label ><input type="radio" name="q1" value ="21"/>21</label>
+
+            <label ><input type="radio" name="q1" value = "30" />30</label>
+
+            <label ><input type="radio" name="q1" value = "36" />36</label>
+
+            <p>2) Which of the following triangles are always similar?</p>
+
+            <label ><input type="radio" name="q2" value = "Right triangle" />Right triangle</label>
+            <label ><input type="radio" name="q2" value = "Obtuse triangle" />Obtuse triangle</label>
+            <label ><input type="radio" name="q2" value = "Equilateral triangle" />Equilateral triangle</label>
+            <label ><input type="radio" name="q2" value = "Isoceles triangle" />Isoceles triangle</label>
+        </div>
+    </form>  
+    <div class="container">
+        <button  id="btn">Submit</button>
+    </div>
+    <div class="container" id="output"></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
