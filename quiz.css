@@ -54,7 +54,7 @@ h1{
     margin-top: 0.2rem;
     margin-bottom: 0.5rem;
     border: 1px solid rgb(205, 253, 147);
-    border-radius: -1rem;
+    color: aquamarine;
     font-size: large;
     background-color: rgb(167, 197, 197);
     font-family: 'Dancing Script', cursive;
@@ -95,4 +95,18 @@ h1{
 
 #output{
     color: #f5ffd3;
+}
+
+label{
+    color: aquamarine;
+}
+
+hr{
+    color: #ffffff;
+}
+p{
+    font-weight: bold;
+    font-family: 'BIZ UDPMincho', serif;    
+    font-style: italic;
+    margin-top: 2rem;
 }

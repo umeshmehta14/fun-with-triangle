@@ -82,11 +82,13 @@ h1{
 /* Area of triangle */
 
 .h-n{
+    display: grid;
+    width: fit-content;
     border: 2px solid rgb(85, 140, 191);
     text-align: center;
     color: aliceblue;
-    padding: 1rem 0rem;
-    margin: 1rem 32rem;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
     font-size: large;
     font-family: 'BIZ UDPMincho', serif;
     border-radius:0px 0px 78px 78px;

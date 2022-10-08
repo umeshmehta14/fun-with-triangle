@@ -9,15 +9,23 @@ function calsqr(a,b)
 }
 
 function calculate(){
-    if(Number(side[0].value) === 0)
+    if(Number(side[0].value) < 0 || Number(side[1].value) < 0)
     {
-        out.innerText = "plzz enter number";
+        out.style.color = "red";
+        out.innerText = "Enter positive Number";
     }
     else{
-
-        const sum = calsqr(Number(side[0].value), Number(side[1].value));
-        const len = Math.sqrt(sum);
-        out.innerText = "The length of hypotenuse is "+ len;
+        if(Number(side[0].value) === 0 || Number(side[1].value) === 0)
+        {
+            out.style.color = "red";
+            out.innerText = "Please fill up both fields";
+        }
+        else{
+            out.style.color = "white";
+            const sum = calsqr(Number(side[0].value), Number(side[1].value));
+            const len = parseFloat(Math.sqrt(sum).toFixed(3));
+            out.innerText = "The length of hypotenuse is "+ len;
+        }
     }
 }
 
