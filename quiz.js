@@ -3,7 +3,7 @@ const sabtn = document.querySelector("#btn")
 const out = document.querySelector("#output")
 
 
-const Ca = ["21","Equilateral triangle"];
+const Ca = ["21","Equilateral triangle", "Base", "Pythagoras", "3"];
 
 function score() {
     let score = 0;
